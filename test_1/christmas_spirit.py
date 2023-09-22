@@ -41,3 +41,4 @@ if days_left % 10 == 0:
 print(f"Total cost: {total_cost}")
 print(f"Total spirit: {total_spirit}")
 #Very good
+# Before KrissKisov merge
