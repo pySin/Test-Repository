@@ -1,13 +1,28 @@
 year = int(input())
-year_is_special = False
-while not year_is_special:
-    year += 1
-    year_as_string = str(year)
-    for digit in year_as_string:
-        if year_as_string.count(digit) > 1:
+status = "unhappy"
+current = 0
+while status == "unhappy":
+    current = year + 1
+    current_str = str(current)
+    list = []
+    for i in current_str:
+        list.append(i)
+    for j in range(0, len(list) - 1):
+        num_1 = list[j]
+        next_num = list[j+1]
+        first = list[0]
+        last = list[-1]
+        if next_num != num_1 and first != last \
+                and last != list[1] \
+                and list[0]!= list[2] \
+                and list[-1]!= list[-2]\
+                and list[-1] != list[-3]:
+            status = "happy"
+            continue
+        else:
+            status = "unhappy"
+            year = current
             break
-    else:
-        year_is_special = True
 
-print(year)
-# I was trying to figure it withouth count, but im still trying :D
+print(current)
+# my long variant without count
