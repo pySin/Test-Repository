@@ -10,3 +10,4 @@ while not year_is_special:
         year_is_special = True
 
 print(year)
+# I was trying to figure it withouth count, but im still trying :D
