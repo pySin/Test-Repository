@@ -42,3 +42,4 @@ print(f"Total cost: {total_cost}")
 print(f"Total spirit: {total_spirit}")
 #Very good
 # Before KrissKisov merge
+# So it seems that a branch merge does NOT discard changes made to the main branch meanwhile 
