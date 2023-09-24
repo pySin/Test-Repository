@@ -4,7 +4,7 @@ ORNAMENT_SET_PRICE = 2
 TREE_SKIRT_PRICE = 5
 TREE_GARLAND_PRICE = 3
 TREE_LIGHTS_PRICE = 15
-# why are you using global variables? If the are going to be used in more places then you can use them.
+# why are you using global variables? If they are going to be used in more places then you can use them.
 
 quantity_of_decorations = int(input())
 days_left = int(input())
