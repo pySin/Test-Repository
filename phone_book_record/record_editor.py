@@ -25,6 +25,3 @@ if command == "Y":
 
 sorted_records = sort_records(records)
 write_to_file(sorted_records)
-
-
-
