@@ -1,0 +1,5 @@
+This solution of the "Lexicon" idea shares the base points of Vivian's approach and structure.
+The data collection and output are simplified. The data entries are simple strings divided by new lines.
+
+Future Tasks
++ Additional scripts are needed for the analysis.
